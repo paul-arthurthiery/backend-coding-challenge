@@ -1,0 +1,17 @@
+{
+  "name": "backend-coding-challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for Developer position at Coveo",
+  "main": "index.js",
+  "repository": "git@github.com:paul-arthurthiery/backend-coding-challenge.git",
+  "author": "Paul-Arthur Thiéry <paul-arthur.thiery@dynamicly.com>",
+  "license": "Beerware",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+  },
+}
