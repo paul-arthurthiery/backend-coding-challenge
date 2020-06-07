@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
+    "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -44,4 +45,19 @@
       ]
     }
   },
+  "jest": {
+    "clearMocks": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/data/*.js",
+      "**/controllers/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/coverage/"
+    ],
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.test.js"
+    ]
+  }
 }

@@ -1,3 +1,4 @@
+const cityController = require('./city'); // circular import to allow mocking
 
 /** @module cityController */
 
