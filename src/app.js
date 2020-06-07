@@ -13,6 +13,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/suggestions', suggestionsRouter);
+app.use('/docs', express.static(resolvePath(__dirname, '../out')));
+app.use('/coverage', express.static(resolvePath(__dirname, '../coverage/lcov-report')));
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
