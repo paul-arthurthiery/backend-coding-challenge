@@ -1,5 +1,16 @@
-# Coveo Backend Coding Challenge
+# Submission for Coveo Backend Coding Challenge
 (inspired by https://github.com/busbud/coding-challenge-backend-c)
+
+This project exposes a REST API, following the requirements below.
+A minimal webpage serving as an interface is available [here](https://cov-webpage-coding-challenge.herokuapp.com/)
+The REST API itself is available at https://cov-backend-coding-challenge.herokuapp.com/
+This REST API also serves both [documentation](https://cov-backend-coding-challenge.herokuapp.com/docs) and [test coverage results](https://cov-backend-coding-challenge.herokuapp.com/coverage)
+
+⚠All the urls point to resources running on free Dynos on heroku.com, and as such they are prone to going to sleep. If any resource doesn't load instantly when you query/navigate, give it some time so that heroku spins the app back up.
+
+## Stack
+This REST API uses Express as a framework, which is mostly used to serve custom js functions used to parse, sort, match and score cities from a .tsv file.
+It also uses Jest as a test framework for custom js functions, and Docker for containerization.
 
 ## Requirements
 
@@ -83,8 +94,3 @@ These responses are meant to provide guidance. The exact values can vary based o
 ## References
 
 - Geonames provides city lists Canada and the USA http://download.geonames.org/export/dump/readme.txt
-
-## Getting Started
-
-Begin by forking this repo and cloning your fork. GitHub has apps for [Mac](http://mac.github.com/) and
-[Windows](http://windows.github.com/) that make this easier.
