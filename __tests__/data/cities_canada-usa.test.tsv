@@ -1,0 +1,22 @@
+id	name	ascii	alt_name	lat	long	feat_class	feat_code	country	cc2	admin1	admin2	admin3	admin4	population	elevation	dem	tz	modified_at
+4734909	Sulphur Springs	Sulphur Springs	SLR	33.13845	-95.60107	P	PPLA2	US		TX	223			15449	153	158	America/Chicago	2011-05-14
+4735013	Sunnyvale	Sunnyvale	Sunivejl,Сънивейл	32.79652	-96.56082	P	PPL	US		TX	113			5130	148	152	America/Chicago	2011-05-14
+4735702	Taylor	Taylor	Tejlor,Тейлор	30.57076	-97.40944	P	PPL	US		TX	491			15191	172	176	America/Chicago	2011-05-14
+4735966	Temple	Temple	TPL,Templ,tempeul,tmbl, tksas,tmpl, tgzas,Темпл,تمبل، تكساس,تمپل، تگزاس,템플	31.09823	-97.34278	P	PPL	US		TX	027			66102	219	223	America/Chicago	2011-05-14
+4736028	Terrell	Terrell	TRL	32.73596	-96.27526	P	PPL	US		TX	257			15816	155	158	America/Chicago	2011-05-14
+4736096	Texarkana	Texarkana	TXK,Teksarkana,te ke sa ka na,tegsakaena,tksarkna, tgzas,tyksarkana, tksas,Тексаркана,تيكساركانا، تكساس,تکسارکنا، تگزاس,特克萨卡纳,텍사캐나	33.42512	-94.04769	P	PPL	US		TX	037			36411	91	95	America/Chicago	2011-05-14
+4736134	Texas City	Texas City		29.38384	-94.9027	P	PPL	US		TX	167			45099	3	5	America/Chicago	2011-05-14
+4736388	The Colony	The Colony	Kolonija,Колония	33.08901	-96.88639	P	PPL	US		TX	121			36328	180	182	America/Chicago	2011-05-14
+4736476	The Woodlands	The Woodlands	The Woodlands,Woodlands	30.15799	-95.48938	P	PPL	US		TX	339			93847	43	46	America/Chicago	2011-05-14
+4736922	Timberwood Park	Timberwood Park		29.70578	-98.47835	P	PPL	US		TX	029			13447	376	381	America/Chicago	2011-05-14
+4737094	Tomball	Tomball		30.09716	-95.61605	P	PPL	US		TX	201			10753	57	59	America/Chicago	2011-05-14
+4737676	Trophy Club	Trophy Club		32.9979	-97.18362	P	PPL	US		TX	121			8024	185	190	America/Chicago	2011-05-14
+4738214	Tyler	Tyler	TYR,Tajler,Tyler,tai lei,taira,taylr, tgzas,taylr, tksas,Тайлер,Тајлер,تايلر، تكساس,تایلر، تگزاس,ٹائلر,タイラー,泰勒	32.35126	-95.30106	P	PPLA2	US		TX	423			96900	164	174	America/Chicago	2011-05-14
+4738574	Universal City	Universal City		29.54801	-98.29112	P	PPL	US		TX	029			18530	233	236	America/Chicago	2011-05-14
+4738606	University Park	University Park		32.85013	-96.80028	P	PPL	US		TX	113			23068	167	173	America/Chicago	2011-05-14
+4738721	Uvalde	Uvalde	UVA	29.20968	-99.78617	P	PPLA2	US		TX	463			15751	277	281	America/Chicago	2011-05-14
+4805404	Fairmont	Fairmont	Fehrmont,Фэрмонт	39.48508	-80.14258	P	PPLA2	US		WV	049			18704	300	302	America/New_York	2011-05-14
+4807310	Grafton	Grafton		39.34092	-80.01897	P	PPLA2	US		WV	091			5164	312	313	America/New_York	2011-05-14
+4809537	Huntington	Huntington	Gantington,HTS,Khantington,Khuntingtun,hantinton,heng ting dun,heontingteon,hnghtynghtwn, fyrjynya alghrbyt,Гантінґтон,Хантингтон,Хънтингтън,هنغتينغتون، فيرجينيا الغربية,ハンティントン,亨廷顿,헌팅턴	38.41925	-82.44515	P	PPLA2	US		WV	011			49138	173	176	America/New_York	2011-05-14
+4809558	Hurricane	Hurricane		38.43259	-82.02014	P	PPL	US		WV	079			6284	214	215	America/New_York	2011-05-14
+4810884	Keyser	Keyser		39.44093	-78.97392	P	PPLA2	US		WV	057			5439	246	246	America/New_York	2011-05-14
