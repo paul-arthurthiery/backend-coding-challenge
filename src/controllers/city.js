@@ -56,7 +56,7 @@ const getScoredCities = (cities, fragment, latitude, longitude) => cities.map((c
   if (latitude && longitude) {
     const cityLat = parseInt(city.latitude, 10);
     const cityLong = parseInt(city.longitude, 10);
-    const coordinateScore = 1 - (Math.abs(latitude - cityLat) / 180) - (Math.abs(longitude - cityLong) / 360); // compute the distance between the given values and the actual coordinates
+    const coordinateScore = (2 - (Math.abs(latitude - cityLat) / 180) - (Math.abs(longitude - cityLong) / 360)) / 2; // compute the distance between the given values and the actual coordinates
     score = (nameScore / 2 + coordinateScore / 2).toFixed(2); // set the relative weights equal since we can't know which is more important
   } else {
     score = (nameScore).toFixed(2);
