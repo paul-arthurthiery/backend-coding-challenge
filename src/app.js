@@ -1,5 +1,4 @@
 require('dotenv').config();
-const createError = require('http-errors');
 const resolvePath = require('path').resolve;
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -17,9 +16,7 @@ app.use('/docs', express.static(resolvePath(__dirname, '../out')));
 app.use('/coverage', express.static(resolvePath(__dirname, '../coverage/lcov-report')));
 
 // catch 404 and forward to error handler
-app.use((req, res, next) => {
-  next(createError(404));
-});
+app.use((req, res) => res.status(404).send());
 app.use(bodyParser.json());
 
 module.exports = app;
